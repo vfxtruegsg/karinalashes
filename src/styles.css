@@ -1,4 +1,10 @@
 @import url('./css/reset.css');
 @import url('./css/media.css');
-
 @import url('./css/header.css');
+@import url('./css/why-me.css');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  background-color: #f1f1f1;
+}
