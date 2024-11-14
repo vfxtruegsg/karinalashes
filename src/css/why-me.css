@@ -1,10 +1,10 @@
 .why-me-container {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #fff4f4;
 }
 
 .section-two-title {
+  font-family: 'Edu AU VIC WA NT Pre', cursive;
   text-align: center;
   font-weight: 500;
   font-size: 24px;
@@ -44,10 +44,18 @@
 
 .sec-achievements {
   font-weight: 500;
-  font-size: 35px;
+  font-size: 32px;
   letter-spacing: 0.1em;
   color: #000;
   margin-bottom: 4px;
+}
+
+.sec-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.189;
+  letter-spacing: 0.1em;
+  color: #000;
 }
 
 @media (min-width: 768px) {

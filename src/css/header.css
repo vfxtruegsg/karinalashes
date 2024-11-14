@@ -1,7 +1,6 @@
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #fff4f4;
 }
 
 .navigation {
@@ -17,16 +16,24 @@
 .logo {
   width: 22px;
   height: 22px;
+  transition: scale 0.3s ease-in-out;
+}
+
+.logo:hover {
+  scale: 1.2;
 }
 
 .title-navigation {
-  color: #ffbdbd;
+  font-family: 'Edu AU VIC WA NT Pre', cursive;
+  font-weight: 500;
+  font-size: 18px;
+  color: #f38888;
   transition: color 0.3s ease-in-out, scale 0.3s ease-in-out;
 }
 
 .title-navigation:hover {
-  color: #f38888;
-  scale: 1.1;
+  color: #fa7c7c;
+  scale: 1.04;
 }
 
 .burger-btn {
@@ -37,14 +44,14 @@
 
 .burger-icon {
   display: block;
-  fill: #f38888;
+  fill: #e46464;
   width: 28px;
   height: 28px;
-  transition: background-color 0.3s ease-in-out, scale 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out, scale 0.3s ease-in-out;
 }
 
 .burger-icon:hover {
-  scale: 1.2;
+  scale: 1.18;
   fill: #fa7c7c;
 }
 
@@ -59,15 +66,21 @@
 }
 
 .title-header {
+  font-family: 'Edu AU VIC WA NT Pre', cursive;
   padding: 6px 12px;
   border-radius: 10px;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.30187;
   letter-spacing: 0.04em;
-  color: #666;
+  color: #353535;
   text-align: center;
-  background-color: #fdf7f7;
+  background: rgb(255, 212, 225);
+  background: linear-gradient(
+    285deg,
+    rgba(255, 212, 225, 1) 2%,
+    rgba(255, 220, 220, 1) 93%
+  );
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -84,7 +97,6 @@
   }
   .title-header {
     width: 180px;
-    height: 200px;
     text-align: left;
   }
 }
@@ -114,7 +126,6 @@
   }
   .title-header {
     width: 280px;
-    height: 260px;
     font-size: 24px;
   }
 }
