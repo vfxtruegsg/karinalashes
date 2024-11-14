@@ -2,6 +2,7 @@
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .my-work-title {
   font-family: 'Edu AU VIC WA NT Pre', cursive;
   text-align: center;
@@ -12,7 +13,10 @@
   text-transform: capitalize;
 }
 
-/* .swiper {
-  width: 600px;
-  height: 300px;
-} */
+.swiper {
+  margin-top: 24px;
+}
+
+.portfolio-img-work {
+  border-radius: 10%;
+}
