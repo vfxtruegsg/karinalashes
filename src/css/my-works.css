@@ -4,7 +4,7 @@
 }
 
 .my-work-title {
-  font-family: 'Edu AU VIC WA NT Pre', cursive;
+  font-family: 'Source Serif 4', serif;
   text-align: center;
   font-weight: 400;
   font-size: 28px;
@@ -13,10 +13,30 @@
   text-transform: capitalize;
 }
 
+.instruction-gallery {
+  font-family: 'Source Serif 4', serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.07em;
+  color: #353535;
+  margin-top: 12px;
+}
+
 .swiper {
   margin-top: 24px;
+  cursor: pointer;
 }
 
 .portfolio-img-work {
   border-radius: 10%;
+}
+
+@media (min-width: 1024px) {
+  .swiper {
+    margin-top: 48px;
+  }
+  .instruction-gallery {
+    font-size: 16px;
+  }
 }
