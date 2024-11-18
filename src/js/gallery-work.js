@@ -15,10 +15,6 @@ var swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
     draggable: true,
   },
-  autoplay: {
-    delay: 2000,
-    disableOnInteraction: false,
-  },
   slidesPerView: 2,
   spaceBetween: 10,
   breakpoints: {
@@ -48,14 +44,11 @@ const gallery = document.querySelector('.swiper');
 gallery.addEventListener(
   'wheel',
   event => {
-    // Предотвращаем стандартное поведение прокрутки страницы
     event.preventDefault();
 
-    // Если колесо прокручивается вниз — переходим к следующему слайду
     if (event.deltaY > 0) {
       swiper.slideNext();
     } else {
-      // Если колесо прокручивается вверх — переходим к предыдущему слайду
       swiper.slidePrev();
     }
   },
