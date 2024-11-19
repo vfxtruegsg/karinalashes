@@ -8,7 +8,13 @@
 body {
   font-family: 'Raleway', sans-serif;
   color: #000;
-  background-color: #fff4f4;
+  background: rgb(254, 247, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 247, 255, 1) 0%,
+    rgba(255, 241, 254, 1) 50%,
+    rgba(254, 247, 255, 1) 100%
+  );
 }
 
 .body-lock {

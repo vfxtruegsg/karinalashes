@@ -10,7 +10,7 @@
   border-radius: 12px;
   padding: 4px 12px;
   background-color: #fdf7f7;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0.1, 0.1, 0.1, 0.3);
 }
 
 .logo {
@@ -164,7 +164,7 @@
 
 .modal-window-container {
   position: relative;
-  padding-top: 112px;
+  padding-top: 72px;
   padding-bottom: 72px;
   max-width: 320px;
 }
@@ -177,7 +177,12 @@
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 12px;
-  background-color: #fcd6f2;
+  background: rgb(255, 212, 225);
+  background: linear-gradient(
+    285deg,
+    rgba(255, 212, 225, 1) 2%,
+    rgba(255, 220, 220, 1) 93%
+  );
   box-shadow: 0px 4px 10px rgba(0, 0.1, 0.1, 0.3);
 }
 
@@ -208,13 +213,13 @@
   background-color: transparent;
 
   position: absolute;
-  top: 48px;
-  right: 32px;
+  top: 24px;
+  right: 12px;
 }
 
 .closed-icon {
   display: block;
-  fill: #f8b0f2;
+  fill: #e46464;
   width: 24px;
   height: 24px;
   transition: fill 0.3s ease-in-out, rotate 0.3s ease-in-out;
@@ -222,18 +227,17 @@
 
 .closed-icon:hover {
   rotate: 180deg;
-  fill: #690d69;
+  fill: #fa7c7c;
 }
 
 @media (min-width: 768px) {
   .modal-window-container {
     position: relative;
-    padding-top: 72px;
+
     max-width: 768px;
   }
   .closed-button {
-    top: 24px;
-    right: 48px;
+    right: 32px;
   }
   .my-links-navigation {
     margin-top: 24px;
@@ -250,8 +254,7 @@
     height: 28px;
   }
   .closed-button {
-    top: 24px;
-    right: 64px;
+    right: 54px;
   }
 }
 
@@ -298,9 +301,14 @@
 
   margin-top: 24px;
   padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 20px;
   border-radius: 12px;
-  background-color: #fcd6f2;
+  background: rgb(255, 212, 225);
+  background: linear-gradient(
+    285deg,
+    rgba(255, 212, 225, 1) 2%,
+    rgba(255, 220, 220, 1) 93%
+  );
   box-shadow: 0px 4px 10px rgba(0, 0.1, 0.1, 0.3);
 }
 
@@ -331,6 +339,7 @@
 
 .entry-form textarea {
   height: 120px;
+  margin-bottom: 18px;
   resize: none;
 }
 
@@ -343,7 +352,7 @@
 .submit-button {
   padding: 8px 16px;
   border: none;
-  background-color: #f363e7;
+  background-color: #ff90b1;
   color: #fef7ff;
 
   font-weight: 400;
@@ -355,7 +364,7 @@
 }
 
 .submit-button:hover {
-  background-color: #690d69;
+  background-color: #b4618f;
 }
 
 @media (min-width: 768px) {
