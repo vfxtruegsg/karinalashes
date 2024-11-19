@@ -21,7 +21,7 @@
     <script type="module" crossorigin src="/karinalashes/index.js"></script>
     <link rel="modulepreload" crossorigin href="/karinalashes/assets/vendor-Dt1Lz-pX.js">
     <link rel="stylesheet" crossorigin href="/karinalashes/assets/vendor-Be9b3THL.css">
-    <link rel="stylesheet" crossorigin href="/karinalashes/assets/index-XXHGh1mJ.css">
+    <link rel="stylesheet" crossorigin href="/karinalashes/assets/index-D-0ToGrp.css">
   </head>
   <body>
     <header class="header">
@@ -43,7 +43,7 @@
       </h1>
     </div>
     <!-- MODAL WINDOW -->
-    <div class="modal-window">
+    <div class="modal-window is-ope">
       <div class="modal-window-container container">
         <button class="closed-button">
           <svg class="closed-icon">
@@ -86,6 +86,36 @@
             </li>
           </ul>
         </nav>
+        <form class="entry-form" action="">
+          <h2 class="header-modal-window">Запис на процедуру</h2>
+          <input
+            class="input-name"
+            type="text"
+            placeholder="Ваше ім'я"
+            name="client-name"
+            required
+          />
+          <input
+            class="input-phone"
+            type="tel"
+            placeholder="Ваш номер телефону"
+            name="client-phone"
+            required
+          />
+          <input
+            class="input-date"
+            type="date"
+            name="date"
+            placeholder="Дата"
+            required
+          />
+          <textarea
+            class="comments"
+            name="comments"
+            placeholder="Ваші побажання"
+          ></textarea>
+          <button class="submit-button" type="submit">Записатись</button>
+        </form>
       </div>
     </div>
   </div>
