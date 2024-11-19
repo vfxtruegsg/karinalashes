@@ -4,8 +4,13 @@
 @import url('./css/why-me.css');
 @import url('./css/my-works.css');
 @import url('./css/services.css');
+
 body {
   font-family: 'Raleway', sans-serif;
   color: #000;
   background-color: #fff4f4;
+}
+
+.body-lock {
+  overflow: hidden;
 }
